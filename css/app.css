@@ -2,6 +2,11 @@
     font-family: "ISOCTEUR";
     src: url("fonts/ISOCTEUR.ttf");
 }
+
+html {
+    font-family: "ISOCTEUR", sans-serif;
+}
+
 svg {
     font-family: "ISOCTEUR", sans-serif;
     width: 100%;
