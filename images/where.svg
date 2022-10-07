@@ -30,6 +30,12 @@
        width="63.831696"
        height="11.766945"
        id="rect1516" />
+   <style>
+      @font-face {
+         font-family: "ISOCTEUR"
+         src: url("./fonts/ISOCTEUR")
+      }
+   </style>
   </defs>
   <g
      inkscape:label="Layer 1"
