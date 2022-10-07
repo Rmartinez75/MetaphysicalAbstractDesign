@@ -17,11 +17,26 @@
 
 <body>
 
-    <div class="top-bar" data-topbar role="navigation">
+    <div class="top-bar">
 
-        <a href="index.html"> <img src="./images/logo1.svg" alt=""> </a>            
+        <div class="top-bar-left">
+           <a href="index.html"> <img src="./images/logo1.svg" alt=""> </a>
+        </div>
 
-    </div>
+        <div class="top-bar-right">
+           <ul class="menu dropdown" data-dropdown-menu>
+              <li class="whereTo">
+                 <a> <img src="./images/where.svg" alt=""> </a>
+                 <ul class="menu">
+                    <li><a class="about" href="pants.html"><-->     Pants</a></li>
+                    <li><a class="about" href="shorts.html"><-->     Shorts</a></li>
+                    <li><a class="about" href="about.html"><-->     About</a></li>
+                 </ul>               
+              </li>
+           </ul>
+        </div>
+
+     </div>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
